@@ -1,6 +1,67 @@
 Begin Ballers Lounge
  # this app has two different games you can play
 
-print "choose your options: "
+   print "choose your options: "
+   print "1 - Money buckets"
+   print "2 - Compound interest"
 
+   Get choice
+
+   # Put a loop here to ensure thy can keep playing
+
+
+   If choice == 1 THEN
+      Money buckets()
+   Elseif == 2  THEN
+      Compound interest
+
+
+
+ END Ballers Lounge
+
+ BEGIN Money buckets()
+
+    Income = Input("What's your income")
+        Blow = print "Blow = 60% of Income"
+        print "Daily expense = 60% of Blow"
+        print "Splurge = 10% of Blow"
+        print "Smile = 10% of Blow"
+        print "Fire Extinguisher = 20% of Blow"
+        print "Grow = 20% of Income"
+        print "Mojo = 20% of Income"
+
+ END Money buckets
+
+ BEGIN Compound imterest
+
+ Age = input "When do you begin investing: "
+ Interest = input "What's the average annual interest return"
+ Amount = input "What's the amount you will invest every year"
+ print (age)
+ print (amount)
+ add = (interest)  * (amount)
+ total = (add) + (amount)
+ FOR counter = age TO 60:
+    total = (total) + (amount)
+    add = interest * total
+    total = total + interest
+    print counter
+    print amount
+    print total
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+print "choose your options: "
 
